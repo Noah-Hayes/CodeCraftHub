@@ -8,5 +8,3 @@ const PORT = process.env.PORT || 27017; // instead of line 6
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
 });
-
-// test change

@@ -1,10 +1,10 @@
 // Main application file / Entry point for application
 
 const express = require('express');
-const setupServer = require('./config/server');
-const connectDB = require('./config/db');
-const userRoutes = require('./routes/userRoutes');
-const errorHandler = require('./utils/errorHandler');
+const setupServer = require('./config/config/server');
+const connectDB = require('./config/config/db');
+const userRoutes = require('./config/routes/userRoutes');
+const errorHandler = require('./config/utils/errorHandler');
 
 const app = setupServer();
 connectDB();
